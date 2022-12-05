@@ -1,6 +1,14 @@
-# list-of-custom-emulated-devices-in-chrome
+# List of custom emulated devices in Chrome DevTools
 
-List of custom emulated devices parameters you add to Chrome DevTools
+The dev tools in Google Chrome include the ability to emulate a mobile device inside the browser. This is extremely useful for getting a quick preview of how a webpage will look on various device types and sizes. This repo contains list of parameters for latest most popular devices from Apple, Google, Samsung and many others. You can just drop it into your DevTools and use it.
+
+You can also add a custom emulated device that meets your users' needs by entering viewport width and height, DPR (Device Pixel Ratio) and User Agent.
+
+If you want to calculate custom parameters for your specific device refer to this article on Hasnode:
+<br>
+[Add custom emulated device in Chrome DevTools](https://hashnode.com/beta/draft/638c7f0a4a96bb8fda438809)
+<br>
+<br>
 
 ## Device Information
 
@@ -86,22 +94,22 @@ List of custom emulated devices parameters you add to Chrome DevTools
 
 ### Google devices
 
-| Device Name       | width (viewport) | height (viewport) | DPR (JS) - CSS Pixel Ratio | User Agent                                                                                                                                           |
-| ----------------- | ---------------- | ----------------- | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Google Pixel 7 Pro| 422              | 914               | 3.41                       | Mozilla/5.0 (Linux; Android 13; Pixel 7 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36                            |
-| Google Pixel 6a   | 377              | 839               | 2.86                       | Mozilla/5.0 (Linux; Android 13; Pixel 6a) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36                           |
-| Google Pixel 7    | 394              | 875               | 2.74                       | Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.30 Mobile Safari/537.36                             |
-| Google Pixel 6    | 394              | 875               | 2.74                       | Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.30 Mobile Safari/537.36                             |
-| Google Pixel 4    | 353              | 745               | 3                          | Mozilla/5.0 (Linux; Android 10; Pixel 4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36                            |
-| Google Pixel 4 XL | 412              | 869               | 3.5                        | Mozilla/5.0 (Linux; Android 10; Pixel 4 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36                         |
-| Google Pixel 3    | 393              | 786               | 2.75                       | Mozilla/5.0 (Linux; Android 9; Pixel 3 Build/PQ1A.181105.017.A1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.158 Mobile Safari/537.36    |
-| Google Pixel 3 XL | 412              | 846               | 3.5                        | Mozilla/5.0 (Linux; Android 9; Pixel 3 XL Build/PQ1A.181105.017.A1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.158 Mobile Safari/537.36 |
-| Google Nexus 4    | 384              | 640               | 2                          | Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 4 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19     |
-| Google Nexus 5    | 360              | 640               | 3                          | Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19     |
-| Google Nexus S    | 320              | 533               | 1.5                        | Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; Nexus S Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1              |
-| Google Nexus 10   | 1280             | 800               | 2                          | Mozilla/5.0 (Linux; Android 4.3; Nexus 10 Build/JSS15Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Safari/537.36                     |
-| Google Nexus 7 2  | 960              | 600               | 2                          | Mozilla/5.0 (Linux; Android 4.3; Nexus 7 Build/JSS15Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Safari/537.36                      |
-| Google Nexus 7    | 966              | 604               | 1.325                      | Mozilla/5.0 (Linux; Android 4.3; Nexus 7 Build/JSS15Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Safari/537.36                      |
+| Device Name        | width (viewport) | height (viewport) | DPR (JS) - CSS Pixel Ratio | User Agent                                                                                                                                           |
+| ------------------ | ---------------- | ----------------- | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Google Pixel 7 Pro | 422              | 914               | 3.41                       | Mozilla/5.0 (Linux; Android 13; Pixel 7 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36                            |
+| Google Pixel 6a    | 377              | 839               | 2.86                       | Mozilla/5.0 (Linux; Android 13; Pixel 6a) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36                           |
+| Google Pixel 7     | 394              | 875               | 2.74                       | Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.30 Mobile Safari/537.36                             |
+| Google Pixel 6     | 394              | 875               | 2.74                       | Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.30 Mobile Safari/537.36                             |
+| Google Pixel 4     | 353              | 745               | 3                          | Mozilla/5.0 (Linux; Android 10; Pixel 4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36                            |
+| Google Pixel 4 XL  | 412              | 869               | 3.5                        | Mozilla/5.0 (Linux; Android 10; Pixel 4 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36                         |
+| Google Pixel 3     | 393              | 786               | 2.75                       | Mozilla/5.0 (Linux; Android 9; Pixel 3 Build/PQ1A.181105.017.A1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.158 Mobile Safari/537.36    |
+| Google Pixel 3 XL  | 412              | 846               | 3.5                        | Mozilla/5.0 (Linux; Android 9; Pixel 3 XL Build/PQ1A.181105.017.A1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.158 Mobile Safari/537.36 |
+| Google Nexus 4     | 384              | 640               | 2                          | Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 4 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19     |
+| Google Nexus 5     | 360              | 640               | 3                          | Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19     |
+| Google Nexus S     | 320              | 533               | 1.5                        | Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; Nexus S Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1              |
+| Google Nexus 10    | 1280             | 800               | 2                          | Mozilla/5.0 (Linux; Android 4.3; Nexus 10 Build/JSS15Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Safari/537.36                     |
+| Google Nexus 7 2   | 960              | 600               | 2                          | Mozilla/5.0 (Linux; Android 4.3; Nexus 7 Build/JSS15Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Safari/537.36                      |
+| Google Nexus 7     | 966              | 604               | 1.325                      | Mozilla/5.0 (Linux; Android 4.3; Nexus 7 Build/JSS15Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Safari/537.36                      |
 
 <br />
 
