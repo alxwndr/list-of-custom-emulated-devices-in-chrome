@@ -2,11 +2,11 @@
 
 The dev tools in Google Chrome include the ability to emulate a mobile device inside the browser. This is extremely useful for getting a quick preview of how a webpage will look on various device types and sizes. This repo contains list of parameters for latest most popular devices from Apple, Google, Samsung and many others. You can just drop it into your DevTools and use it.
 
-You can also add a custom emulated device that meets your users' needs by entering viewport width and height, DPR (Device Pixel Ratio) and User Agent.
+You can also add a custom emulated device that meets your users needs by entering viewport width and height, DPR (Device Pixel Ratio) and User Agent.
 
 If you want to calculate custom parameters for your specific device refer to this article on Hasnode:
 <br>
-[Add custom emulated device in Chrome DevTools](https://hashnode.com/beta/draft/638c7f0a4a96bb8fda438809)
+[Add custom emulated device in Chrome DevTools](https://avocadev.hashnode.dev/add-custom-emulated-device-in-chrome-devtools)
 <br>
 <br>
 
